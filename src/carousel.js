@@ -142,6 +142,7 @@ export default class SideSwipe extends Component<CarouselProps, State> {
                   this.props.handleScroll(event);
                 }
               },
+            }
           )}
           renderItem={({ item, index }) =>
             renderItem({
